@@ -1,0 +1,984 @@
+{
+  "accesorios": [
+    {
+      "tipo": "Unión Normal",
+      "diametro": "20 mm",
+      "perdida_carga": 0.369
+    },
+    {
+      "tipo": "Unión Normal",
+      "diametro": "25 mm",
+      "perdida_carga": 0.242
+    },
+    {
+      "tipo": "Unión Normal",
+      "diametro": "32 mm",
+      "perdida_carga": 0.408
+    },
+    {
+      "tipo": "Unión Normal",
+      "diametro": "40 mm",
+      "perdida_carga": 0.237
+    },
+    {
+      "tipo": "Unión Normal",
+      "diametro": "50 mm",
+      "perdida_carga": 0.234
+    },
+    {
+      "tipo": "Unión Normal",
+      "diametro": "63 mm",
+      "perdida_carga": 0.162
+    },
+    {
+      "tipo": "Unión Normal",
+      "diametro": "75 mm",
+      "perdida_carga": 0.103
+    },
+    {
+      "tipo": "Unión Normal",
+      "diametro": "90 mm",
+      "perdida_carga": 0.206
+    },
+    {
+      "tipo": "Unión Normal",
+      "diametro": "110 mm",
+      "perdida_carga": 0.224
+    },
+    {
+      "tipo": "Codo Normal a 45º",
+      "diametro": "20 mm",
+      "perdida_carga": 0.519
+    },
+    {
+      "tipo": "Codo Normal a 45º",
+      "diametro": "25 mm",
+      "perdida_carga": 0.583
+    },
+    {
+      "tipo": "Codo Normal a 45º",
+      "diametro": "32 mm",
+      "perdida_carga": 0.668
+    },
+    {
+      "tipo": "Codo Normal a 45º",
+      "diametro": "40 mm",
+      "perdida_carga": 0.682
+    },
+    {
+      "tipo": "Codo Normal a 45º",
+      "diametro": "50 mm",
+      "perdida_carga": 0.315
+    },
+    {
+      "tipo": "Codo Normal a 45º",
+      "diametro": "63 mm",
+      "perdida_carga": 0.633
+    },
+    {
+      "tipo": "Codo Normal a 45º",
+      "diametro": "75 mm",
+      "perdida_carga": 0.845
+    },
+    {
+      "tipo": "Codo Normal a 45º",
+      "diametro": "90 mm",
+      "perdida_carga": 0.719
+    },
+    {
+      "tipo": "Codo Normal a 45º",
+      "diametro": "110 mm",
+      "perdida_carga": 1.629
+    },
+    {
+      "tipo": "Codo Normal a 90º",
+      "diametro": "20 mm",
+      "perdida_carga": 0.953
+    },
+    {
+      "tipo": "Codo Normal a 90º",
+      "diametro": "25 mm",
+      "perdida_carga": 0.856
+    },
+    {
+      "tipo": "Codo Normal a 90º",
+      "diametro": "32 mm",
+      "perdida_carga": 1.191
+    },
+    {
+      "tipo": "Codo Normal a 90º",
+      "diametro": "40 mm",
+      "perdida_carga": 1.004
+    },
+    {
+      "tipo": "Codo Normal a 90º",
+      "diametro": "50 mm",
+      "perdida_carga": 1.422
+    },
+    {
+      "tipo": "Codo Normal a 90º",
+      "diametro": "63 mm",
+      "perdida_carga": 2.283
+    },
+    {
+      "tipo": "Codo Normal a 90º",
+      "diametro": "75 mm",
+      "perdida_carga": 2.334
+    },
+    {
+      "tipo": "Codo Normal a 90º",
+      "diametro": "90 mm",
+      "perdida_carga": 2.075
+    },
+    {
+      "tipo": "Codo Normal a 90º",
+      "diametro": "110 mm",
+      "perdida_carga": 2.115
+    },
+    {
+      "tipo": "Codo MH a 45°",
+      "diametro": "20 mm",
+      "perdida_carga": 0.57609
+    },
+    {
+      "tipo": "Codo MH a 45°",
+      "diametro": "25 mm",
+      "perdida_carga": 0.64713
+    },
+    {
+      "tipo": "Codo MH a 45°",
+      "diametro": "32 mm",
+      "perdida_carga": 0.74148
+    },
+    {
+      "tipo": "Codo MH a 45°",
+      "diametro": "40 mm",
+      "perdida_carga": 0.75702
+    },
+    {
+      "tipo": "Codo MH a 90°",
+      "diametro": "20 mm",
+      "perdida_carga": 1.05783
+    },
+    {
+      "tipo": "Codo MH a 90°",
+      "diametro": "25 mm",
+      "perdida_carga": 0.95016
+    },
+    {
+      "tipo": "Codo MH a 90°",
+      "diametro": "32 mm",
+      "perdida_carga": 1.32201
+    },
+    {
+      "tipo": "Codo MH a 90°",
+      "diametro": "40 mm",
+      "perdida_carga": 1.11444
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "20 x 1/2",
+      "perdida_carga": 0.651
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "25 x 1/2",
+      "perdida_carga": 0.398
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "25 x 3/4",
+      "perdida_carga": 0.768
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "32 x 3/4",
+      "perdida_carga": 0.543
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "32 x 1",
+      "perdida_carga": 0.899
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "40 x 1",
+      "perdida_carga": 0.854
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "40 x 1 1/4",
+      "perdida_carga": 1.004
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "50 x 1 1/4",
+      "perdida_carga": 1.004
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "50 x 1 1/2",
+      "perdida_carga": 2.528
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "63 x 1 1/2",
+      "perdida_carga": 3.092
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "63 x 2",
+      "perdida_carga": 2.612
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "75 x 2 1/2",
+      "perdida_carga": 2.334
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "90 x 3",
+      "perdida_carga": 2.48
+    },
+    {
+      "tipo": "Codo 90º con rosca hembra",
+      "diametro": "110 x 4",
+      "perdida_carga": 3.509
+    },
+    {
+      "tipo": "Codo 90º C/base H.larga",
+      "diametro": "20x1/2\" St",
+      "perdida_carga": 0.7
+    },
+    {
+      "tipo": "Codo 90º C/base H.larga",
+      "diametro": "25x1/2\" St",
+      "perdida_carga": 0.5
+    },
+    {
+      "tipo": "Codo 90º C/base H.extra Larga",
+      "diametro": "20x1/2\" ST",
+      "perdida_carga": 0.7
+    },
+    {
+      "tipo": "Codo 90º C/base H.extra Larga",
+      "diametro": "25x1/2\" ST",
+      "perdida_carga": 0.5
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "25 a 20 mm",
+      "perdida_carga": 0.329
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "32 a 20 mm",
+      "perdida_carga": 0.329
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "32 a 25 mm",
+      "perdida_carga": 0.525
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "40 a 25 mm",
+      "perdida_carga": 0.49
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "40 a 32 mm",
+      "perdida_carga": 0.506
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "50 a 32 mm",
+      "perdida_carga": 0.506
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "50 a 40 mm",
+      "perdida_carga": 0.517
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "63 a 40 mm",
+      "perdida_carga": 0.676
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "63 a 50 mm",
+      "perdida_carga": 0.817
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "75 a 50 mm",
+      "perdida_carga": 0.561
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "75 a 63 mm",
+      "perdida_carga": 0.324
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "90 a 63 mm",
+      "perdida_carga": 0.205
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "90 a 75 mm",
+      "perdida_carga": 0.283
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "110 a 75 mm",
+      "perdida_carga": 0.972
+    },
+    {
+      "tipo": "Cupla Reducción HH",
+      "diametro": "110 a 90 mm",
+      "perdida_carga": 0.972
+    },
+    {
+      "tipo": "Buje Reducción",
+      "diametro": "25-20",
+      "perdida_carga": 0.375
+    },
+    {
+      "tipo": "Buje Reducción",
+      "diametro": "32-25",
+      "perdida_carga": 0.576
+    },
+    {
+      "tipo": "Buje Reducción",
+      "diametro": "32-20",
+      "perdida_carga": 0.384
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "40 a 25 mm",
+      "perdida_carga": 0.445
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "40 a 32 mm",
+      "perdida_carga": 0.718
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "50 a 32 mm",
+      "perdida_carga": 0.538
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "50 a 40 mm",
+      "perdida_carga": 0.571
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "63 a 40 mm",
+      "perdida_carga": 0.676
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "63 a 50 mm",
+      "perdida_carga": 0.817
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "75 a 50 mm",
+      "perdida_carga": 0.704
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "75 a 63 mm",
+      "perdida_carga": 0.687
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "90 a 63 mm",
+      "perdida_carga": 0.908
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "90 a 75 mm",
+      "perdida_carga": 0.958
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "110 a 75 mm",
+      "perdida_carga": 1.092
+    },
+    {
+      "tipo": "Buje Reducción MH",
+      "diametro": "110 a 90 mm",
+      "perdida_carga": 0.972
+    },
+    {
+      "tipo": "Transición Hembra",
+      "diametro": "20 x 1/2",
+      "perdida_carga": 0.404
+    },
+    {
+      "tipo": "Transición Hembra",
+      "diametro": "25 x 1/2",
+      "perdida_carga": 0.159
+    },
+    {
+      "tipo": "Transición Hembra",
+      "diametro": "25 x 3/4",
+      "perdida_carga": 0.397
+    },
+    {
+      "tipo": "Transición Hembra",
+      "diametro": "32 x 1",
+      "perdida_carga": 0.303
+    },
+    {
+      "tipo": "Transición Hembra",
+      "diametro": "40 x 1 1/4",
+      "perdida_carga": 0.471
+    },
+    {
+      "tipo": "Transición Hembra",
+      "diametro": "50 x 1 1/2",
+      "perdida_carga": 0.498
+    },
+    {
+      "tipo": "Transición Hembra",
+      "diametro": "63 x 2",
+      "perdida_carga": 0.232
+    },
+    {
+      "tipo": "Transición Hembra",
+      "diametro": "75 x 2 1/2",
+      "perdida_carga": 0.828
+    },
+    {
+      "tipo": "Transición Hembra",
+      "diametro": "90 x 3",
+      "perdida_carga": 1.98
+    },
+    {
+      "tipo": "Transición Hembra",
+      "diametro": "110 x 4",
+      "perdida_carga": 0.958
+    },
+    {
+      "tipo": "Transición Macho",
+      "diametro": "20 x 1/2",
+      "perdida_carga": 0.369
+    },
+    {
+      "tipo": "Transición Macho",
+      "diametro": "25 x 1/2",
+      "perdida_carga": 0.152
+    },
+    {
+      "tipo": "Transición Macho",
+      "diametro": "25 x 3/4",
+      "perdida_carga": 0.362
+    },
+    {
+      "tipo": "Transición Macho",
+      "diametro": "32 x 1",
+      "perdida_carga": 0.526
+    },
+    {
+      "tipo": "Transición Macho",
+      "diametro": "40 x 1 1/4",
+      "perdida_carga": 0.396
+    },
+    {
+      "tipo": "Transición Macho",
+      "diametro": "50 x 1 1/2",
+      "perdida_carga": 0.277
+    },
+    {
+      "tipo": "Transición Macho",
+      "diametro": "63 x 2",
+      "perdida_carga": 0.232
+    },
+    {
+      "tipo": "Transición Macho",
+      "diametro": "75 x 2 1/2",
+      "perdida_carga": 0.828
+    },
+    {
+      "tipo": "Transición Macho",
+      "diametro": "90 x 3",
+      "perdida_carga": 1.98
+    },
+    {
+      "tipo": "Transición Macho",
+      "diametro": "110 x 4",
+      "perdida_carga": 0.958
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "20 mm, flujo a 90º",
+      "perdida_carga": 0.771
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "20 mm, flujo a través",
+      "perdida_carga": 0.392
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "25 mm, flujo a 90º",
+      "perdida_carga": 0.707
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "25 mm, flujo a través",
+      "perdida_carga": 0.222
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "32 mm, flujo a 90º",
+      "perdida_carga": 0.928
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "32 mm, flujo a través",
+      "perdida_carga": 0.235
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "40 mm, flujo a 90º",
+      "perdida_carga": 0.902
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "40 mm, flujo a través",
+      "perdida_carga": 0.237
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "50 mm, flujo a 90º",
+      "perdida_carga": 1.262
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "50 mm, flujo a través",
+      "perdida_carga": 0.27
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "63 mm, flujo a 90º",
+      "perdida_carga": 1.662
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "63 mm, flujo a través",
+      "perdida_carga": 0.396
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "75 mm, flujo a 90º",
+      "perdida_carga": 2.577
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "75 mm, flujo a través",
+      "perdida_carga": 0.829
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "90 mm, flujo a 90º",
+      "perdida_carga": 2.004
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "90 mm, flujo a través",
+      "perdida_carga": 0.985
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "110 mm, flujo a 90º",
+      "perdida_carga": 4.269
+    },
+    {
+      "tipo": "Te Normal",
+      "diametro": "110 mm, flujo a través",
+      "perdida_carga": 2.153
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "25 x 20, flujo a 90º",
+      "perdida_carga": 0.755
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "25 x 20, flujo a través",
+      "perdida_carga": 0.352
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "32 x 20, flujo a 90º",
+      "perdida_carga": 0.845
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "32 x 20, flujo a través",
+      "perdida_carga": 0.618
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "32 x 25, flujo a 90º",
+      "perdida_carga": 0.819
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "32 x 25, flujo a través",
+      "perdida_carga": 0.618
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "40 x 25, flujo a 90º",
+      "perdida_carga": 0.837
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "40 x 25, flujo a través",
+      "perdida_carga": 0.708
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "40 x 32, flujo a 90º",
+      "perdida_carga": 0.99
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "40 x 32, flujo a través",
+      "perdida_carga": 0.371
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "50 x 32, flujo a 90ª",
+      "perdida_carga": 0.774
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "50 x 32, flujo a través",
+      "perdida_carga": 0.284
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "50 x 40, flujo a 90ª",
+      "perdida_carga": 1.004
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "50 x 40, flujo a través",
+      "perdida_carga": 0.277
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "63 x 40, flujo a 90ª",
+      "perdida_carga": 0.902
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "63 x 40, flujo a través",
+      "perdida_carga": 0.162
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "63 x 50, flujo a 90ª",
+      "perdida_carga": 1.921
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "63 x 50, flujo a través",
+      "perdida_carga": 0.28
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "75 x 50, flujo a 90ª",
+      "perdida_carga": 1.108
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "75 x 50, flujo a través",
+      "perdida_carga": 0.144
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "75 x 63, flujo a 90ª",
+      "perdida_carga": 1.067
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "75 x 63, flujo a través",
+      "perdida_carga": 0.297
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "90 x 63, flujo a 90ª",
+      "perdida_carga": 2.414
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "90 x 63, flujo a través",
+      "perdida_carga": 0.355
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "90 x 75, flujo a 90ª",
+      "perdida_carga": 2.632
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "90 x 75, flujo a través",
+      "perdida_carga": 0.347
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "110 x 75, flujo a 90ª",
+      "perdida_carga": 1.592
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "110 x 75, flujo a través",
+      "perdida_carga": 0.631
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "110 x 90, flujo a 90ª",
+      "perdida_carga": 2.094
+    },
+    {
+      "tipo": "Te Reduc. Central",
+      "diametro": "110 x 90, flujo a través",
+      "perdida_carga": 0.9
+    },
+    {
+      "tipo": "Te Reduc.",
+      "diametro": "20 Extr. 25 Te 25 X 20 X 20",
+      "perdida_carga": 0.4
+    },
+    {
+      "tipo": "Te Reduc.",
+      "diametro": "20 Extr. 32 Te 32 X 20 X 20",
+      "perdida_carga": 0.704
+    },
+    {
+      "tipo": "Te Reduc.",
+      "diametro": "25 Extr. 20 Te 25 X 25 X 20",
+      "perdida_carga": 0.4
+    },
+    {
+      "tipo": "Te Reduc.",
+      "diametro": "32 Extr. 20 Te 32 X 32 X 20",
+      "perdida_carga": 0.704
+    },
+    {
+      "tipo": "Llave Esférica",
+      "diametro": "20 mm",
+      "perdida_carga": 0.678
+    },
+    {
+      "tipo": "Llave Esférica",
+      "diametro": "25 mm",
+      "perdida_carga": 0.227
+    },
+    {
+      "tipo": "Llave Esférica",
+      "diametro": "32 mm",
+      "perdida_carga": 0.327
+    },
+    {
+      "tipo": "Llave Esférica",
+      "diametro": "40 mm",
+      "perdida_carga": 1.159
+    },
+    {
+      "tipo": "Llave Esférica",
+      "diametro": "50 x 1 1/2",
+      "perdida_carga": 0.89
+    },
+    {
+      "tipo": "Llave Esférica",
+      "diametro": "63 x 2",
+      "perdida_carga": 0.78
+    },
+    {
+      "tipo": "Cupla Electrofusión",
+      "diametro": "20 mm",
+      "perdida_carga": 0.369
+    },
+    {
+      "tipo": "Cupla Electrofusión",
+      "diametro": "25 mm",
+      "perdida_carga": 0.242
+    },
+    {
+      "tipo": "Cupla Electrofusión",
+      "diametro": "32 mm",
+      "perdida_carga": 0.408
+    },
+    {
+      "tipo": "Cupla Electrofusión",
+      "diametro": "40 mm",
+      "perdida_carga": 0.237
+    },
+    {
+      "tipo": "Cupla Electrofusión",
+      "diametro": "50 mm",
+      "perdida_carga": 0.234
+    },
+    {
+      "tipo": "Cupla Electrofusión",
+      "diametro": "63 mm",
+      "perdida_carga": 0.162
+    },
+    {
+      "tipo": "Cupla Electrofusión",
+      "diametro": "75 mm",
+      "perdida_carga": 0.14
+    },
+    {
+      "tipo": "Cupla Electrofusión",
+      "diametro": "90 mm",
+      "perdida_carga": 0.15
+    },
+    {
+      "tipo": "Cupla Electrofusión",
+      "diametro": "110 mm",
+      "perdida_carga": 0.19
+    },
+    {
+      "tipo": "Curva de Sobrepasaje",
+      "diametro": "20 mm",
+      "perdida_carga": 0.476
+    },
+    {
+      "tipo": "Curva de Sobrepasaje",
+      "diametro": "25 mm",
+      "perdida_carga": 0.324
+    },
+    {
+      "tipo": "Curva de Sobrepasaje",
+      "diametro": "32 mm",
+      "perdida_carga": 0.383
+    },
+    {
+      "tipo": "Niple corto con tope",
+      "diametro": "20 mm",
+      "perdida_carga": 0.39114
+    },
+    {
+      "tipo": "Niple corto con tope",
+      "diametro": "25 mm",
+      "perdida_carga": 0.25652
+    },
+    {
+      "tipo": "Niple corto con tope",
+      "diametro": "32 mm",
+      "perdida_carga": 0.43248
+    },
+    {
+      "tipo": "Niple corto con tope",
+      "diametro": "40 mm",
+      "perdida_carga": 0.25122
+    },
+    {
+      "tipo": "Niple corto con tope",
+      "diametro": "50 mm",
+      "perdida_carga": 0.24804
+    },
+    {
+      "tipo": "Niple corto con tope",
+      "diametro": "63 mm",
+      "perdida_carga": 0.17172
+    },
+    {
+      "tipo": "Niple corto con tope",
+      "diametro": "75 mm",
+      "perdida_carga": 0.10918
+    },
+    {
+      "tipo": "Niple corto con tope",
+      "diametro": "90 mm",
+      "perdida_carga": 0.21836
+    },
+    {
+      "tipo": "Niple corto con tope",
+      "diametro": "110 mm",
+      "perdida_carga": 0.23744
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "32-20",
+      "perdida_carga": 0.69869
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "40-20",
+      "perdida_carga": 0.63547
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "40-25",
+      "perdida_carga": 0.48505
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "50-25",
+      "perdida_carga": 0.61258
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "50-32",
+      "perdida_carga": 0.58642
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "63-32",
+      "perdida_carga": 0.77935
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "63-40",
+      "perdida_carga": 0.71613
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "75-40",
+      "perdida_carga": 0.59466
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "75-50",
+      "perdida_carga": 0.59466
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "90-50",
+      "perdida_carga": 0.21726
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "90-63",
+      "perdida_carga": 0.21726
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "110-63",
+      "perdida_carga": 1.02994
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "110-75",
+      "perdida_carga": 1.02994
+    },
+    {
+      "tipo": "Reductor Anular",
+      "diametro": "110-90",
+      "perdida_carga": 1.02994
+    }
+  ]
+}

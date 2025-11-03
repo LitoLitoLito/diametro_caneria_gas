@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Diámetros de Cañerías</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+</head>
+
+<body>
+    <!-- Header Fijo -->
+    <header class="site-header" id="main-header">
+        <div class="logo">
+            <img src="assets/img/logo_gas_color.png" alt="Logo">
+            <h1>Calculadora de Diámetros de Cañerías</h1>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="#" onclick="volverAlMenu()">Inicio</a></li>
+                <li><a href="#" onclick="cargarApp('sigas')">Polietileno SIGAS</a></li>
+                <li><a href="#" onclick="cargarApp('hierro')">Hierro Negro</a></li>
+                <li><a href="mailto:lititosalta@gmail.com">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menú Principal -->
+    <div class="container main-menu" id="main-menu">
+        <div class="welcome-section">
+            <h1>Calculadora de Diámetros de Cañerías</h1>
+            <p>Selecciona el tipo de material para comenzar</p>
+        </div>
+
+        <div class="apps-grid">
+
+            <div class="app-card" onclick="cargarApp('sigas')">
+                <div class="card-icon">🔵</div>
+                <h2>Polietileno SIGAS</h2>
+                <p>Sistema para cálculo de diámetros de cañerías de gas natural por termofusión</p>
+                <div class="card-features">
+                    <span>• Interfaz de 3 pasos</span>
+                    <span>• Cálculo con accesorios</span>
+                    <span>• Reportes PDF</span>
+                    <span>• Conversión Kcal/h a m³/h</span>
+                </div>
+                <button class="btn-primary">Seleccionar</button>
+            </div>
+
+            <div class="app-card" onclick="cargarApp('hierro')">
+                <div class="card-icon">⚙️</div>
+                <h2>Hierro Negro con Recubrimiento Epoxi</h2>
+                <p>Cálculo de diámetros por método equivalente con accesorios</p>
+                <div class="card-features">
+                    <span>• Método equivalente</span>
+                    <span>• Biblioteca de accesorios</span>
+                    <span>• Cálculos detallados</span>
+                    <span>• Exportación PDF/CSV</span>
+                </div>
+                <button class="btn-primary">Seleccionar</button>
+            </div>
+
+            <div class="app-card" onclick="cargarApp('materiales')">
+                <div class="card-icon">📋</div>
+                <h2>Listado de Materiales</h2>
+                <p>Gestión completa de materiales, presupuesto y generación de listas en PDF. Ideal para preparar
+                    pedidos y cotizaciones.</p>
+                <div class="card-features">
+                    <span>✓ Agregar y editar materiales</span>
+                    <span>✓ Cálculo automático de importes</span>
+                    <span>✓ Totalización en tiempo real</span>
+                    <span>✓ Exportación a PDF</span>
+                    <span>✓ Almacenamiento local</span>
+                </div>
+                <button class="btn-primary">Abrir Listado</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenedor para Apps -->
+    <div id="app-container" class="app-container" style="display: none;">
+        <button class="btn-back" onclick="volverAlMenu()">← Volver al Menú Principal</button>
+        <div id="current-app"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 - Herramienta para el Cálculo de Diámetro de Cañerías | Desarrollado por Julio "Lito" Acuña</p>
+        <p>Contacto: <a href="mailto:lititosalta@gmail.com">lititosalta@gmail.com</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

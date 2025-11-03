@@ -1,0 +1,354 @@
+:root {
+    --primary: #3498db;
+    --secondary: #2ecc71;
+    --accent: #f39c12;
+    --danger: #e74c3c;
+    --light: #ecf0f1;
+    --dark: #2c3e50;
+    --white: #ffffff;
+    --gray: #7f8c8d;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: var(--dark);
+    line-height: 1.6;
+    padding-top: 80px;
+}
+
+/* Header Fijo */
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: var(--white);
+    box-shadow: var(--shadow);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo h1 {
+    color: var(--primary);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.navbar a:hover {
+    background: var(--primary);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--dark);
+    padding: 5px;
+}
+
+/* Menú Principal */
+.main-menu {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.welcome-section {
+    margin-bottom: 60px;
+}
+
+.welcome-section h1 {
+    font-size: 2.8rem;
+    color: var(--white);
+    margin-bottom: 15px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    font-weight: 700;
+}
+
+.welcome-section p {
+    font-size: 1.3rem;
+    color: rgba(255,255,255,0.9);
+    font-weight: 300;
+}
+
+.apps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 35px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.app-card {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 35px 30px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+}
+
+.app-card:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+}
+
+.card-icon {
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+}
+
+.app-card h2 {
+    color: var(--dark);
+    margin-bottom: 18px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.app-card p {
+    color: var(--gray);
+    margin-bottom: 25px;
+    line-height: 1.6;
+    flex-grow: 1;
+    font-size: 1rem;
+}
+
+.card-features {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.card-features span {
+    display: block;
+    color: var(--primary);
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    padding-left: 5px;
+    border-left: 3px solid var(--secondary);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary), #2980b9);
+    color: var(--white);
+    border: none;
+    padding: 14px 35px;
+    border-radius: 25px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+}
+
+/* Contenedor de Apps */
+.app-container {
+    background: var(--white);
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    overflow: hidden;
+    min-height: 600px;
+}
+
+.btn-back {
+    background: var(--gray);
+    color: var(--white);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-back:hover {
+    background: var(--dark);
+    transform: translateX(-5px);
+}
+
+/* Footer */
+.site-footer {
+    background: var(--dark);
+    color: var(--white);
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 50px;
+}
+
+.site-footer p {
+    margin-bottom: 8px;
+}
+
+.site-footer a {
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding-top: 70px;
+    }
+    
+    .site-header {
+        padding: 12px 15px;
+    }
+    
+    .logo h1 {
+        font-size: 1.1rem;
+    }
+    
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--white);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border-top: 1px solid var(--light);
+    }
+    
+    .navbar.active {
+        display: block;
+    }
+    
+    .navbar ul {
+        flex-direction: column;
+        padding: 15px;
+        gap: 0;
+    }
+    
+    .navbar li {
+        border-bottom: 1px solid var(--light);
+    }
+    
+    .navbar li:last-child {
+        border-bottom: none;
+    }
+    
+    .navbar a {
+        display: block;
+        padding: 12px 15px;
+        border-radius: 8px;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .apps-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 10px;
+    }
+    
+    .app-card {
+        padding: 25px 20px;
+    }
+    
+    .welcome-section h1 {
+        font-size: 2.2rem;
+    }
+    
+    .welcome-section p {
+        font-size: 1.1rem;
+    }
+    
+    .btn-back {
+        margin: 15px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-menu {
+        padding: 30px 15px;
+    }
+    
+    .welcome-section h1 {
+        font-size: 1.8rem;
+    }
+    
+    .apps-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .app-card {
+        padding: 20px 15px;
+    }
+    
+    .card-icon {
+        font-size: 3rem;
+    }
+}
